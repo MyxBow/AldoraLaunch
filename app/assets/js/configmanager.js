@@ -7,7 +7,7 @@ const logger = LoggerUtil.getLogger('ConfigManager')
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 
-const dataPath = path.join(sysRoot, '.lemeilleurlauncherdumondeever(aldoralaunch)')
+const dataPath = path.join(sysRoot, '.aldoralaunch')
 
 const launcherDir = require('@electron/remote').app.getPath('userData')
 

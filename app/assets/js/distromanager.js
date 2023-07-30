@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager')
 
 // Old WesterosCraft url.
 // exports.REMOTE_DISTRO_URL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
-exports.REMOTE_DISTRO_URL = 'https://aldoria.fr/LAUNCHER/distribution.json'
+exports.REMOTE_DISTRO_URL = 'https://aldoria.fr/LAUNCHER/distribution.json' // askip c'est fait exprès de mettre 404
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
